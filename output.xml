@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20231212 00:01:01.608" rpa="false" schemaversion="4">
+<suite id="s1" name="Register" source="C:\Users\Venkatesh M\PycharmProjects\pyhonseleniumatuomation\register.robot">
+<test id="s1-t1" name="Register_Form" line="8">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231212 00:01:01.785" level="INFO">Opening browser 'chrome' to base url 'https://demo.automationtesting.in/Register.html#google_vignette'.</msg>
+<status status="PASS" starttime="20231212 00:01:01.785" endtime="20231212 00:01:05.928"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231212 00:01:06.928" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20231212 00:01:05.928" endtime="20231212 00:01:06.928"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@ng-model='FirstName']</arg>
+<arg>John</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231212 00:01:06.930" level="INFO">Typing text 'John' into text field 'xpath://input[@ng-model='FirstName']'.</msg>
+<status status="PASS" starttime="20231212 00:01:06.929" endtime="20231212 00:01:07.085"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231212 00:01:08.149" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20231212 00:01:07.145" endtime="20231212 00:01:08.149"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@ng-model='LastName']</arg>
+<arg>Miller</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231212 00:01:08.149" level="INFO">Typing text 'Miller' into text field 'xpath://input[@ng-model='LastName']'.</msg>
+<status status="PASS" starttime="20231212 00:01:08.149" endtime="20231212 00:01:08.230"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231212 00:01:09.231" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20231212 00:01:08.231" endtime="20231212 00:01:09.231"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://textarea[@ng-model='Adress']</arg>
+<arg>Vaniyambaditheru</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231212 00:01:09.231" level="INFO">Typing text 'Vaniyambaditheru' into text field 'xpath://textarea[@ng-model='Adress']'.</msg>
+<status status="PASS" starttime="20231212 00:01:09.231" endtime="20231212 00:01:09.364"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231212 00:01:10.365" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20231212 00:01:09.365" endtime="20231212 00:01:10.365"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@ng-model='EmailAdress']</arg>
+<arg>j@yopmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231212 00:01:10.365" level="INFO">Typing text 'j@yopmail.com' into text field 'xpath://input[@ng-model='EmailAdress']'.</msg>
+<status status="PASS" starttime="20231212 00:01:10.365" endtime="20231212 00:01:10.465"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231212 00:01:11.467" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20231212 00:01:10.465" endtime="20231212 00:01:11.467"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@type='tel']</arg>
+<arg>995454554512</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231212 00:01:11.467" level="INFO">Typing text '995454554512' into text field 'xpath://input[@type='tel']'.</msg>
+<status status="PASS" starttime="20231212 00:01:11.467" endtime="20231212 00:01:11.556"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231212 00:01:12.556" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20231212 00:01:11.556" endtime="20231212 00:01:12.556"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://input[@value='Male']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231212 00:01:12.556" level="INFO">Clicking element 'xpath://input[@value='Male']'.</msg>
+<status status="PASS" starttime="20231212 00:01:12.556" endtime="20231212 00:01:12.641"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231212 00:01:13.642" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20231212 00:01:12.642" endtime="20231212 00:01:13.642"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://input[@id='checkbox1']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231212 00:01:13.642" level="INFO">Clicking element 'xpath://input[@id='checkbox1']'.</msg>
+<status status="PASS" starttime="20231212 00:01:13.642" endtime="20231212 00:01:13.703"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231212 00:01:14.705" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20231212 00:01:13.704" endtime="20231212 00:01:14.705"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://div[@id='msdd']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20231212 00:01:14.705" level="INFO">Clicking button 'xpath://div[@id='msdd']'.</msg>
+<msg timestamp="20231212 00:01:14.879" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-28.png"&gt;&lt;img src="selenium-screenshot-28.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20231212 00:01:14.879" level="FAIL">Button with locator 'xpath://div[@id='msdd']' not found.</msg>
+<status status="FAIL" starttime="20231212 00:01:14.705" endtime="20231212 00:01:14.885"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231212 00:01:14.885" endtime="20231212 00:01:14.885"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://a[@text()='Icelandic']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231212 00:01:14.885" endtime="20231212 00:01:14.885"/>
+</kw>
+<status status="FAIL" starttime="20231212 00:01:01.785" endtime="20231212 00:01:14.886">Button with locator 'xpath://div[@id='msdd']' not found.</status>
+</test>
+<status status="FAIL" starttime="20231212 00:01:01.608" endtime="20231212 00:01:14.886"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Register">Register</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
